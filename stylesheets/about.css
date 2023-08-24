@@ -1,0 +1,20 @@
+body{
+    background-size: 300%;
+    background-image: linear-gradient(45deg,black 0%,rgb(158, 38, 94) 100%);
+    animation: bg-animation 10s infinite;
+}
+
+@keyframes bg-animation{
+    0% {background-position: left;}
+    25% {background-position: top;}
+    50% {background-position: right;}
+    75% {background-position: bottom;}
+    100%{background-position: left;}
+}
+
+h1 {
+    font-size: 3rem;
+    color: white;
+    font-family: 'JetBrains Mono', monospace;
+    padding-left: 2rem;
+}
